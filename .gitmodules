@@ -1,4 +1,0 @@
-[submodule "lib/TinyClient"]
-	path = lib/TinyClient
-	url = https://github.com/Forsteholdet/TinyClient.git
-	branch = main
