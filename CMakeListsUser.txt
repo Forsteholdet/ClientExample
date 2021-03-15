@@ -1,0 +1,12 @@
+include(FetchContent)
+
+message("Download TinyCurl")
+FetchContent_Declare(
+  TinyClient
+  GIT_REPOSITORY https://github.com/Forsteholdet/TinyClient.git
+  GIT_TAG origin/main
+  SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/lib/TinyClient
+)
+FetchContent_Populate(TinyClient)
+
+message("Download TinyCurl DONE")
